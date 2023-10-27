@@ -1,0 +1,74 @@
+[
+  {
+    "description": "message_id",
+    "mode": "REQUIRED",
+    "name": "message_id",
+    "type": "STRING"
+  },
+  {
+    "description": "contains attribute_map of pubsub event",
+    "mode": "REQUIRED",
+    "name": "attribute_map",
+    "type": "STRING"
+  },
+  {
+    "description": "contains data_map of pubsub event",
+    "mode": "REQUIRED",
+    "name": "data_map",
+    "type": "STRING"
+  },
+  {
+    "description": "status of the file",
+    "mode": "REQUIRED",
+    "name": "complete_status",
+    "type": "STRING"
+  },
+  {
+    "description": "status of the services",
+    "mode": "REQUIRED",
+    "name": "service_status",
+    "type": "STRING"
+  },
+  {
+    "description": "retry flag",
+    "mode": "REQUIRED",
+    "name": "is_retry",
+    "type": "STRING"
+  },
+  {
+    "description": "restore flag",
+    "mode": "REQUIRED",
+    "name": "is_restore",
+    "type": "STRING"
+  },
+  {
+    "description": "file retry attempt count",
+    "mode": "REQUIRED",
+    "name": "retry_count",
+    "type": "STRING"
+  },
+  {
+    "description": "priority given to the job",
+    "mode": "REQUIRED",
+    "name": "priority",
+    "type": "STRING"
+  },
+  {
+    "description": "timestamp when event got produced",
+    "mode": "REQUIRED",
+    "name": "orchestration_event_timestamp",
+    "type": "STRING"
+  },
+  {
+    "description": "timestamp when event got inserted",
+    "mode": "REQUIRED",
+    "name": "created_timestamp",
+    "type": "STRING"
+  },
+  {
+    "description": "raw filename",
+    "mode": "REQUIRED",
+    "name": "file_name",
+    "type": "STRING"
+  }
+]

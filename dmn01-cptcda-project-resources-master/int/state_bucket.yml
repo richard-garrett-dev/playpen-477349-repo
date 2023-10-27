@@ -1,0 +1,2 @@
+# Replace <project_id> with the specific project the resources are running for
+state_bucket: dmn01-cptcda-int-01-8c7c-eu-tfstate

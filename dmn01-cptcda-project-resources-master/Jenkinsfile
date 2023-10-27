@@ -1,0 +1,3 @@
+@Library(["jenkins-sharedlib-gitops","jenkins-sharedlib-platformcompliance"]) _
+
+runCommand()

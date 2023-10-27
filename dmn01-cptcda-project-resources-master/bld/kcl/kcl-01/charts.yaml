@@ -1,0 +1,7 @@
+charts:
+- name: external-dns
+- name: cert-manager
+- name: cert-manager-issuers
+- name: k8s-proxy
+- name: cluster-defaults
+# only allowed on BLD and with exception only on RTL

@@ -1,0 +1,122 @@
+[
+  {
+    "description": "file_extract_date",
+    "mode": "REQUIRED",
+    "name": "file_extract_date",
+    "type": "DATETIME"
+  },
+  {
+    "description": "message_id",
+    "mode": "REQUIRED",
+    "name": "message_id",
+    "type": "STRING"
+  },
+  {
+    "description": "process_id",
+    "mode": "NULLABLE",
+    "name": "process_id",
+    "type": "STRING"
+  },
+  {
+    "description": "job_id",
+    "mode": "NULLABLE",
+    "name": "job_id",
+    "type": "STRING"
+  },
+  {
+    "description": "file_type",
+    "mode": "NULLABLE",
+    "name": "file_type",
+    "type": "STRING"
+  },
+  {
+    "description": "raw_filename",
+    "mode": "NULLABLE",
+    "name": "raw_filename",
+    "type": "STRING"
+  },
+  {
+    "description": "file_name",
+    "mode": "NULLABLE",
+    "name": "file_name",
+    "type": "STRING"
+  },
+  {
+    "description": "file_date",
+    "mode": "NULLABLE",
+    "name": "file_date",
+    "type": "STRING"
+  },
+  {
+    "description": "file_size",
+    "mode": "NULLABLE",
+    "name": "file_size",
+    "type": "STRING"
+  },
+  {
+    "description": "file_sequence_no",
+    "mode": "NULLABLE",
+    "name": "file_sequence_no",
+    "type": "STRING"
+  },
+  {
+    "description": "retry_count",
+    "mode": "NULLABLE",
+    "name": "retry_count",
+    "type": "STRING"
+  },
+  {
+    "description": "partitions_info",
+    "mode": "NULLABLE",
+    "name": "partitions_info",
+    "type": "STRING"
+  },
+  {
+    "description": "total_records",
+    "mode": "NULLABLE",
+    "name": "total_records",
+    "type": "STRING"
+  },
+  {
+    "description": "error_records",
+    "mode": "NULLABLE",
+    "name": "error_records",
+    "type": "STRING"
+  },
+  {
+    "description": "process_start_ts",
+    "mode": "NULLABLE",
+    "name": "process_start_ts",
+    "type": "STRING"
+  },
+  {
+    "description": "process_end_ts",
+    "mode": "NULLABLE",
+    "name": "process_end_ts",
+    "type": "STRING"
+  },
+  {
+    "description": "processed_by",
+    "mode": "NULLABLE",
+    "name": "processed_by",
+    "type": "STRING"
+  },
+  {
+    "description": "process_status",
+    "mode": "NULLABLE",
+    "name": "process_status",
+    "type": "STRING"
+  },
+  {
+    "description": "failure_reason",
+    "mode": "NULLABLE",
+    "name": "failure_reason",
+    "type": "STRING"
+  },
+  {
+    "description": "processed_ts",
+    "mode": "NULLABLE",
+    "name": "processed_ts",
+    "type": "DATETIME"
+  }
+]

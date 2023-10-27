@@ -1,0 +1,188 @@
+[
+  {
+    "description": "transaction_type",
+    "mode": "NULLABLE",
+    "name": "transaction_type",
+    "type": "STRING"
+  },
+  {
+    "description": "processing_code_account_type_from",
+    "mode": "NULLABLE",
+    "name": "processing_code_account_type_from",
+    "type": "STRING"
+  },
+  {
+    "description": "processing_code_account_type_to",
+    "mode": "NULLABLE",
+    "name": "processing_code_account_type_to",
+    "type": "STRING"
+  },
+  {
+    "description": "transaction_amount_1",
+    "mode": "NULLABLE",
+    "name": "transaction_amount_1",
+    "type": "STRING"
+  },
+  {
+    "description": "transmission_date_time",
+    "mode": "NULLABLE",
+    "name": "transmission_date_time",
+    "type": "STRING"
+  },
+  {
+    "description": "merchant_category_code",
+    "mode": "NULLABLE",
+    "name": "merchant_category_code",
+    "type": "STRING"
+  },
+  {
+    "description": "acquire_country",
+    "mode": "NULLABLE",
+    "name": "acquire_country",
+    "type": "STRING"
+  },
+  {
+    "description": "card_data_entry_mode",
+    "mode": "NULLABLE",
+    "name": "card_data_entry_mode",
+    "type": "STRING"
+  },
+  {
+    "description": "pos_entry_mode_code_pin_capability",
+    "mode": "NULLABLE",
+    "name": "pos_entry_mode_code_pin_capability",
+    "type": "STRING"
+  },
+  {
+    "description": "transaction_attribute",
+    "mode": "NULLABLE",
+    "name": "transaction_attribute",
+    "type": "STRING"
+  },
+  {
+    "description": "approval_code",
+    "mode": "NULLABLE",
+    "name": "approval_code",
+    "type": "STRING"
+  },
+  {
+    "description": "result_details",
+    "mode": "NULLABLE",
+    "name": "result_details",
+    "type": "STRING"
+  },
+  {
+    "description": "cvv2_result_code",
+    "mode": "NULLABLE",
+    "name": "cvv2_result_code",
+    "type": "STRING"
+  },
+  {
+    "description": "chip_condition_code",
+    "mode": "NULLABLE",
+    "name": "chip_condition_code",
+    "type": "STRING"
+  },
+  {
+    "description": "mail_phone_electronic_commerce_and_payment_indicator",
+    "mode": "NULLABLE",
+    "name": "mail_phone_electronic_commerce_and_payment_indicator",
+    "type": "STRING"
+  },
+  {
+    "description": "transaction_identification",
+    "mode": "NULLABLE",
+    "name": "transaction_identification",
+    "type": "STRING"
+  },
+  {
+    "description": "pos_environment",
+    "mode": "NULLABLE",
+    "name": "pos_environment",
+    "type": "STRING"
+  },
+  {
+    "description": "dynamic_currency_conversion_indicator",
+    "mode": "NULLABLE",
+    "name": "dynamic_currency_conversion_indicator",
+    "type": "STRING"
+  },
+  {
+    "description": "application_transaction_counter",
+    "mode": "NULLABLE",
+    "name": "application_transaction_counter",
+    "type": "STRING"
+  },
+  {
+    "description": "bin",
+    "mode": "NULLABLE",
+    "name": "bin",
+    "type": "STRING"
+  },
+  {
+    "description": "lbg_response_code",
+    "mode": "NULLABLE",
+    "name": "lbg_response_code",
+    "type": "STRING"
+  },
+  {
+    "description": "message_id",
+    "mode": "NULLABLE",
+    "name": "message_id",
+    "type": "STRING"
+  },
+  {
+    "description": "process_id",
+    "mode": "NULLABLE",
+    "name": "process_id",
+    "type": "STRING"
+  },
+  {
+    "description": "file_name",
+    "mode": "NULLABLE",
+    "name": "file_name",
+    "type": "STRING"
+  },
+  {
+    "description": "processed_filename",
+    "mode": "REQUIRED",
+    "name": "processed_filename",
+    "type": "STRING"
+  },
+  {
+    "description": "file_date",
+    "mode": "NULLABLE",
+    "name": "file_date",
+    "type": "DATE"
+  },
+  {
+    "description": "file_sequence_no",
+    "mode": "NULLABLE",
+    "name": "file_sequence_no",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "retry_count",
+    "mode": "NULLABLE",
+    "name": "retry_count",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "status",
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "description": "error_message",
+    "mode": "NULLABLE",
+    "name": "error_message",
+    "type": "STRING"
+  },
+  {
+    "description": "processed_timestamp",
+    "mode": "NULLABLE",
+    "name": "processed_timestamp",
+    "type": "DATETIME"
+  }
+]

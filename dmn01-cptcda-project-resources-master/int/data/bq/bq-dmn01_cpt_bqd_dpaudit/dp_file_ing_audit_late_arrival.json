@@ -1,0 +1,44 @@
+[
+  {
+    "description": "message_id",
+    "mode": "NULLABLE",
+    "name": "message_id",
+    "type": "STRING"
+  },
+  {
+    "description": "file_name",
+    "mode": "NULLABLE",
+    "name": "file_name",
+    "type": "STRING"
+  },
+  {
+    "description": "file_date",
+    "mode": "NULLABLE",
+    "name": "file_date",
+    "type": "DATE"
+  },
+  {
+    "description": "file_sequence_no",
+    "mode": "NULLABLE",
+    "name": "file_sequence_no",
+    "type": "STRING"
+  },
+  {
+    "description": "file_arrived",
+    "mode": "NULLABLE",
+    "name": "file_arrived",
+    "type": "STRING"
+  },
+  {
+    "description": "flag_raised",
+    "mode": "NULLABLE",
+    "name": "flag_raised",
+    "type": "STRING"
+  },
+  {
+    "description": "created_timestamp",
+    "mode": "NULLABLE",
+    "name": "created_timestamp",
+    "type": "STRING"
+  }
+]

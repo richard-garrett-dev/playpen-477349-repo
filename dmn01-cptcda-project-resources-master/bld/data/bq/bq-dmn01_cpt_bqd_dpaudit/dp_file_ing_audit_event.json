@@ -1,0 +1,32 @@
+[
+    {
+      "description": "file_extract_date",
+      "mode": "REQUIRED",
+      "name": "file_extract_date",
+      "type": "STRING"
+    },
+    {
+      "description": "job_id",
+      "mode": "NULLABLE",
+      "name": "job_id",
+      "type": "STRING"
+    },
+    {
+      "description": "file_name",
+      "mode": "NULLABLE",
+      "name": "file_name",
+      "type": "STRING"
+    },
+    {
+      "description": "event_type",
+      "mode": "NULLABLE",
+      "name": "event_type",
+      "type": "STRING"
+    },
+    {
+      "description": "event_ts",
+      "mode": "NULLABLE",
+      "name": "event_ts",
+      "type": "STRING"
+    }
+  ]

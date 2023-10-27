@@ -1,0 +1,37 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "i_ingestionTime",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "i_topic",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "i_offset",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "i_partition",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "event_header",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "event_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "raw_event",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,50 @@
+[
+    {
+      "description": "product_name",
+      "mode": "REQUIRED",
+      "name": "product_name",
+      "type": "STRING"
+    },
+    {
+      "description": "version_name",
+      "mode": "NULLABLE",
+      "name": "version_name",
+      "type": "STRING"
+    },
+    {
+      "description": "effective_from",
+      "mode": "NULLABLE",
+      "name": "effective_from",
+      "type": "DATE"
+    },
+    {
+      "description": "effective_to",
+      "mode": "NULLABLE",
+      "name": "effective_to",
+      "type": "DATE"
+    },
+    {
+      "description": "is_active",
+      "mode": "NULLABLE",
+      "name": "is_active",
+      "type": "BOOLEAN"
+    },
+    {
+      "description": "code_desc",
+      "mode": "NULLABLE",
+      "name": "code_desc",
+      "type": "JSON"
+    },
+    {
+      "description": "processed_filename",
+      "mode": "NULLABLE",
+      "name": "processed_filename",
+      "type": "STRING"
+    },
+    {
+      "description": "processed_timestamp",
+      "mode": "NULLABLE",
+      "name": "processed_timestamp",
+      "type": "DATETIME"
+   }
+  ]

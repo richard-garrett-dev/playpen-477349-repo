@@ -1,0 +1,14 @@
+[
+    {
+      "description": "dummy",
+      "mode": "REQUIRED",
+      "name": "dummy1",
+      "type": "STRING"
+    },
+    {
+      "description": "dummy2",
+      "mode": "NULLABLE",
+      "name": "dummy2",
+      "type": "STRING" 
+    }
+  ]

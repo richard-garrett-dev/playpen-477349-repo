@@ -1,0 +1,62 @@
+[
+    {
+      "description": "message_id",
+      "mode": "REQUIRED",
+      "name": "message_id",
+      "type": "STRING"
+    },
+    {
+      "description": "file_name",
+      "mode": "NULLABLE",
+      "name": "file_name",
+      "type": "STRING"
+    },
+    {
+      "description": "raw_filename",
+      "mode": "NULLABLE",
+      "name": "raw_filename",
+      "type": "STRING"
+    },
+     {
+      "description": "file_date",
+      "mode": "NULLABLE",
+      "name": "file_date",
+      "type": "INT64"
+    },
+    {
+      "description": "file_sequence_no",
+      "mode": "NULLABLE",
+      "name": "file_sequence_no",
+      "type": "INT64"
+    },
+     {
+      "description": "retry_count",
+      "mode": "NULLABLE",
+      "name": "retry_count",
+      "type": "INT64"
+    },
+     {
+      "description": "validation_type",
+      "mode": "NULLABLE",
+      "name": "validation_type",
+      "type": "STRING"
+    },
+    {
+      "description": "validation_status",
+      "mode": "NULLABLE",
+      "name": "validation_status",
+      "type": "STRING"
+    },
+    {
+      "description": "description",
+      "mode": "NULLABLE",
+      "name": "description",
+      "type": "STRING"
+    },
+    {
+      "description": "rectified_timestamp",
+      "mode": "NULLABLE",
+      "name": "rectified_timestamp",
+      "type": "DATETIME"
+    }
+]

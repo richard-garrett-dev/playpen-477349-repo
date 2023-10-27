@@ -1,0 +1,22 @@
+templates:
+   - data:
+        repo: workstream-data--template
+        version: v9.19.0
+   - kcl:
+        repo: workstream-kcl--template
+        version: v16.1.0
+   - misc:
+        repo: workstream-misc--template
+        version: v3.7.4
+   - com:
+        repo: workstream-compute--template
+        version: v2.12.0
+   - net:
+        repo: workstream-network--template
+        version: v4.19.0
+   - sec:
+        repo: workstream-security--template
+        version: v2.4.1
+   - log:
+        repo: workstream-logging--template
+        version: v3.7.0
